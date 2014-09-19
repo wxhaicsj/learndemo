@@ -1,0 +1,137 @@
+
+
+//waiting for small change
+
+
+$screen_sm: 768px;
+$screen_md: 992px;
+$screen_lg: 1200px;
+
+
+
+.container{// add all per = 10
+	width: 970px;
+	margin: 0 auto;
+	margin-bottom: 16px;
+	&::before,&::after{
+		content: '';
+		display: table;
+		line-height: 0;
+	}
+	&::after{
+		clear: both;
+	}
+}
+
+
+
+@media screen and (min-width: $screen_sm) { //pad
+  .container {
+    width: 750px;
+    @for $i from 0 to 10{
+		.pc-span#{$i+1}{
+			width: (8.2% * ($i+1) + 2% * $i);
+			margin-left: 2%;
+			float: left;
+			padding: 9px;
+			&::before,&::after{
+				content: '';
+				display: table;
+				line-height: 0;
+			}
+			&::after{
+				clear: both;
+			}
+			
+		}
+	}
+	[class*="pc-span"]:first-child{
+		margin-left: 0;
+	}
+  }
+}
+@media screen and (min-width: $screen_md) { //middle PC
+  .container {
+    width: 970px;
+    @for $i from 0 to 10{
+		.pc-span#{$i+1}{
+			width: (8.2% * ($i+1) + 2% * $i);
+			margin-left: 2%;
+			float: left;
+			padding: 9px;
+			&::before,&::after{
+				content: '';
+				display: table;
+				line-height: 0;
+			}
+			&::after{
+				clear: both;
+			}
+			
+		}
+	}
+	[class*="pc-span"]:first-child{
+		margin-left: 0;
+	}
+  }
+}
+@media screen and (min-width: $screen_lg) { //large PC
+  .container {
+    width: 1170px;
+    @for $i from 0 to 10{
+		.pc-span#{$i+1}{
+			width: (8.2% * ($i+1) + 2% * $i);
+			margin-left: 2%;
+			float: left;
+			padding: 9px;
+			&::before,&::after{
+				content: '';
+				display: table;
+				line-height: 0;
+			}
+			&::after{
+				clear: both;
+			}
+			
+		}
+	}
+	[class*="pc-span"]:first-child{
+		margin-left: 0;
+	}
+  }
+}
+@media screen and (max-width: $screen_sm){// phone
+	body{
+		overflow-x: hidden;
+	}
+	.container{
+		width: 100%;
+		&::before,&::after{
+			content: '';
+			display: table;
+			line-height: 0;
+		}
+		&::after{
+			clear: both;
+		}
+		@for $i from 1 to 11{
+			.ph-span#{$i}{
+				width: 10% * $i;
+				padding: 9px;
+				float: left;
+			}
+		}
+	}
+}
+
+@for $i from 1 to 11{ //only for percent
+	.span#{$i}{
+		width: 10% * $i;
+		padding: 9px;
+		float: left;
+	}
+}
+
+
+
+//waiting for small change

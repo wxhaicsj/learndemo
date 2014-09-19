@@ -1,0 +1,190 @@
+/* line 1, ../sass/widthie67.scss */
+.container {
+  width: 970px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+/* line 5, ../sass/widthie67.scss */
+.container::before, .container::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 10, ../sass/widthie67.scss */
+.container::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span1 {
+  width: 8.2%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span1::before, .container .pc-span1::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span1::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span2 {
+  width: 18.4%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span2::before, .container .pc-span2::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span2::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span3 {
+  width: 28.6%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span3::before, .container .pc-span3::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span3::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span4 {
+  width: 38.8%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span4::before, .container .pc-span4::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span4::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span5 {
+  width: 49%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span5::before, .container .pc-span5::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span5::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span6 {
+  width: 59.2%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span6::before, .container .pc-span6::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span6::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span7 {
+  width: 69.4%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span7::before, .container .pc-span7::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span7::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span8 {
+  width: 79.6%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span8::before, .container .pc-span8::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span8::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span9 {
+  width: 89.8%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span9::before, .container .pc-span9::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span9::after {
+  clear: both;
+}
+/* line 14, ../sass/widthie67.scss */
+.container .pc-span10 {
+  width: 100%;
+  margin-left: 2%;
+  float: left;
+  padding: 9px;
+}
+/* line 19, ../sass/widthie67.scss */
+.container .pc-span10::before, .container .pc-span10::after {
+  content: '';
+  display: table;
+  line-height: 0;
+}
+/* line 24, ../sass/widthie67.scss */
+.container .pc-span10::after {
+  clear: both;
+}
+/* line 30, ../sass/widthie67.scss */
+.container [class*="pc-span"]:first-child {
+  margin-left: 0;
+}
